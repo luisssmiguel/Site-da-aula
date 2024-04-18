@@ -1,0 +1,63 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alterado para alinhar o conteúdo ao topo */
+    padding: 20px;
+}
+
+.content {
+    width: 45%; /* Reduzindo a largura do conteúdo */
+    padding-top: 60px; /* Adicionando um preenchimento superior */
+}
+
+.content h1 {
+    color: purple;
+    margin-top: 0; /* Removendo a margem superior */
+    margin-bottom: 3px; /* Reduzindo ainda mais a margem inferior */
+}
+
+.content p {
+    color: #333;
+    margin-top: 0; /* Removendo a margem superior */
+    margin-bottom: 8px; /* Reduzindo ainda mais a margem inferior */
+}
+
+.buttons {
+    margin-top: 15px; /* Reduzindo o espaçamento entre o texto e os botões */
+}
+
+.button {
+    border: 2px solid #111B47; /* Alterada a cor da borda para azul */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #111B47; /* Alterada a cor do texto para azul */
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
+}
+
+.fixed-button {
+    background-color: #111B47; /* Cor de fundo fixa para o primeiro botão */
+    color: white;
+}
+
+.button:hover {
+    background-color: #111B47; /* Alterada a cor de fundo para azul ao passar o mouse */
+    color: white;
+}
+
+.image img {
+    max-width: 67%; /* Define a largura máxima da imagem */
+    height: auto;
+}
